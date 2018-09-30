@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Chicle|Dancing+Script:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 html,body {
     margin:0;
     overflow-x: hidden; 
@@ -50,9 +49,6 @@ html,body {
     50% { transform:scale(1.2)} 
   }
   
-  .fuente{
-    font-family: 'Courgette', cursive;
-  }
 
   /* Agregue un color de fondo oscuro con un poco transparente */ 
   .navbar {
@@ -100,6 +96,7 @@ html,body {
   
   .navbar {
       font-family: Montserrat, sans-serif;
+      /* font-family: 'Josefin Sans', sans-serif; */
   }
   
   .info{
@@ -123,13 +120,13 @@ html,body {
   }
   .meta{
     font-style:italic;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
     color: black;
   }
   
+  
   h1{
-    /* font-family: 'Chicle', cursive; */
     padding-top: 60px;
     padding-bottom: 30px;
     margin: 10px 0 30px 0;
@@ -138,7 +135,6 @@ html,body {
   }
   
   #aboutMe, #work, #contact{
-      /* color: black; */
       border-bottom: solid 3px;
       margin-bottom: 70px;
       padding-bottom: 20px;
@@ -148,9 +144,10 @@ html,body {
     color:white
   }
 
-  h3, p {
+  h3, p .fuente {
     font-family:  'Josefin Sans', sans-serif;
   }
+
   p{
     font-size: 22px;
   }
@@ -309,28 +306,31 @@ html,body {
       border: black 3px solid;
     }
 
-    .block{
-      display: block;
-    }
-
     .container-skills{
-      font-size: 70px;
+      font-size: 30px;
       text-align: center;
+      padding: 8px;
+      margin: 0%;
     }
 
     .size-fonts{
       font-size: 10px;
       text-align: center;
     }
- /* .thumbnail{
-  -webkit-transform: translateY(0%);
-	-ms-transform: translateY(0%);
-	transform: translateY(0%);
- } */
 
- /* .size{
-   size: 80 px;
- } */
+   .size-img{
+      width: 85px;
+      height: auto;
+    }
+
+ .inline{
+   display: inline-block;
+ }   
+
+ .size-logo-contactame{
+  width: 45px;
+  height: auto;
+ }
 
   footer{
     margin-top:30px;
