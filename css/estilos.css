@@ -340,7 +340,25 @@ html,body {
     padding-bottom: 90px;
     background-color: #f1f1f1;
 }
-  
+
+
+/* Habilidades blandas */
+/* .icon-habilitate{
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .navbar-brand img{
+    width: 30px;
+  }
+
+} */
+
+
+/* proximo estilo a usar */
 .dropdown-menu li a {
   color: #000 !important;
 }
