@@ -156,6 +156,7 @@ html,body {
     height:100%;
   }
   
+
   .bg-1 {
       background: #2d2d30;
       color: #bdbdbd;
@@ -341,6 +342,9 @@ html,body {
     background-color: #f1f1f1;
 }
 
+.soft-skills{
+  width: auto;
+}
 
 /* Habilidades blandas */
 /* .icon-habilitate{
@@ -356,13 +360,3 @@ html,body {
   }
 
 } */
-
-
-/* proximo estilo a usar */
-.dropdown-menu li a {
-  color: #000 !important;
-}
-
-.dropdown-menu li a:hover {
-  background-color: grey !important;
-}
