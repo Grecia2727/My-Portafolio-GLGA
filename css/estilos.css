@@ -212,7 +212,7 @@ html,body {
 
     .color-black{
       color: #000;
-      font-size: 40px;
+      font-size: 30px;
     }
     .portafolio{
       width: 90%;
@@ -299,6 +299,7 @@ html,body {
    .size-img{
       width: 85px;
       height: auto;
+      display:flex;
     }
 
  .inline{
