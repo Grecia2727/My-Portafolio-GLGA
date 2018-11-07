@@ -299,7 +299,6 @@ html,body {
    .size-img{
       width: 85px;
       height: auto;
-      display:flex;
     }
 
  .inline{
@@ -361,3 +360,11 @@ html,body {
   }
 
 } */
+
+/* proximo estilo a usar */	
+.dropdown-menu li a {	
+  color: #000 !important;	
+}	
+ .dropdown-menu li a:hover {	
+  background-color: grey !important;	
+}
