@@ -50,6 +50,9 @@ html,body {
     50% { transform:scale(1.2)} 
   }
   
+  .border-white {
+    border-color: white;
+  }
   .navbar {
       margin-bottom: 0;
       background-color: #3b3b3f;
@@ -367,4 +370,50 @@ html,body {
 }	
  .dropdown-menu li a:hover {	
   background-color: grey !important;	
+}
+
+/* ========================================================================= */
+/* ===================  Estilos de Habilidades Técnicas =====================*/
+/* ========================================================================= */
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  /* align-items: center; */
+}
+
+.separate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.separate_tool{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.separate_img {
+  display: flex;
+  width: auto;
+  height: 70px;
+  margin: 10px 20px;
+}
+
+.row1_responsive {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+@media screen and (max-width: 768px) {
+  .row1 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
