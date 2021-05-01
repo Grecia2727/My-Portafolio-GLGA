@@ -217,6 +217,10 @@ html,body {
       color: #000;
       font-size: 30px;
     }
+    .color-transparent{
+      color: transparent;
+      font-size: 30px;
+    }
     .portafolio{
       width: 90%;
       max-width: 1400px;
